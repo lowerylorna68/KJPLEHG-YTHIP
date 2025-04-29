@@ -1,0 +1,16 @@
+
+{
+    "name": "direct",
+    "version": "1.0.0",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js",
+      "build": "echo 'No build step required for this app'"
+    },
+  "dependencies": {
+    "express": "^4.21.1",
+    "express-rate-limit": "^7.4.1",
+    "geoip-lite": "^1.4.10",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
